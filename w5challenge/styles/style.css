@@ -1,0 +1,21 @@
+body {
+    background-color: #737373;
+    margin: 0;
+}
+
+#title-image {
+    width: 100%;
+}
+
+#lower-section {
+    margin: 75px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle-image {
+    box-sizing: border-box;
+    width: 25%;
+    border-radius: 50%;
+    border: 15px solid #444444;
+}
