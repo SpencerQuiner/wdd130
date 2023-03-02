@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;900&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+#container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: #3d3d3d;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo {
+    height: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #3d3d3d;
+    text-decoration: none;
+    font-family: Heebo, sans-serif;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #3d3d3d;
+    color: white;
+    text-decoration: underline;
+    font-family: Heebo, sans-serif;
+}
+
+div #hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+div #hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-img {
+    width: 100%;
+}
+.hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    }
+
+.home-title {
+    color: white;
+    font-family: Heebo, sans-serif;
+    font-size: 3em;
+    margin-top: 10px;
+    letter-spacing: .25em;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    font-family: "Source Sans 3", Helvetica, sans-serif;
+    letter-spacing: .1em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.rivers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    column-gap: 50px;
+    padding: 0px 50px 50px 50px;
+}
+
+#salmoniver {
+    grid-row: 1/2;
+    padding: 20px;
+}
+
+#desolation {
+    background-color: #297A57;
+    grid-row: 2/3;
+}
+
+
+#salmonriver img {
+    grid-column: 1/2;
+    width: 100%;
+   }
+
+#salmonriver .description {
+    grid-column: 2/3;
+}
+
+#desolation img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+}
+
+#desolation .description {
+    grid-column: 1/2;
+}
+
+#grandcanyon img {
+    grid-column: 1/2;
+    width: 100%;
+}
+
+#grandcanyon .description {
+    grid-column: 2/3;
+}
+
+.description p {
+    margin: 0 0 10px 0;
+    font-size: 1.25rem;
+    font-family: "Source Sans 3", Helvetica, sans-serif;
+}
+
+footer {
+    font-family: "Source Sans 3", Helvetica, sans-serif;
+    background-color: #3d3d3d;
+    color: #FDC835;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #FDC835;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.icon {
+    width: 150px;
+    padding: 35px;
+}
+
