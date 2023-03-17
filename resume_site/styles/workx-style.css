@@ -1,0 +1,108 @@
+
+@import url('https://fonts.google.com/share?selection.family=Bree%20Serif%7CHeebo:wght@400;600%7CLato:wght@400;700');
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    padding: 10px;
+    background-color: #164e87;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+header img {
+    border-radius: 50%;
+    justify-self: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav a{
+    color: #fff;
+    align-self: center;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 2.2em;
+    font-family: 'Bree Sherif';
+    text-align: center;
+    margin: 20 auto;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 50px 50px 50px 1fr;
+    margin-bottom: 30px;
+    grid-column-gap: 30px;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Bree Sherif';
+    margin: 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-family: 'Bree Sherif';
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 0;
+}
+
+h5 {
+    font-size: 1.25em;
+    font-family: 'Heebo';
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 0;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'Heebo';
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+img {
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    background-color: #164e87;
+    font-size: 1.25em;
+    place-items: center;
+}
+
+footer p {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: #fff;
+}
+
+footer a {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: #fff;
+}
